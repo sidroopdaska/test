@@ -1,0 +1,36 @@
+{
+	"compilerOptions": {
+		"jsx": "react",
+		"target": "es5",
+		"module": "commonjs",
+		"declaration": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitUseStrict": false,
+		"suppressImplicitAnyIndexErrors": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitThis": true,
+		"allowUnreachableCode": false,
+		"removeComments": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"moduleResolution": "node",
+		"lib": [
+			"es2017",
+			"dom"
+		],
+		"sourceMap": true,
+		"outDir": "./typescriptoutput",
+		"types": ["node"],
+		"typeRoots" : ["./node_modules/@types"]
+	},
+	"compileOnSave": false,
+	"include": [
+		"./src/**/*.ts",
+		"./src/**/*.tsx",
+		"./node_modules/**/*.d.ts"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}

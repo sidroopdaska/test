@@ -1,0 +1,7 @@
+module.exports = { contents: "\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar React = require(\"react\");\r\nvar ReactDOM = require(\"react-dom\");\r\nvar appContainer = document.getElementById(\"appMain\");\r\nvar Component = function () {\r\n    return React.createElement(\"div\", null,\r\n        \"Enum value is \",\r\n        1);\r\n};\r\nReactDOM.render(React.createElement(Component, null), appContainer);\r\n//# sourceMappingURL=index.js.map",
+dependencies: ["react","react-dom"],
+sourceMap: "{\"version\":3,\"file\":\"index.jsx\",\"sourceRoot\":\"\",\"sources\":[\"/src/index.tsx\"],\"names\":[],\"mappings\":\";;AAAA,6BAA+B;AAC/B,oCAAsC;AAGtC,IAAI,YAAY,GAAG,QAAQ,CAAC,cAAc,CAAC,SAAS,CAAC,CAAC;AAEtD,IAAI,SAAS,GAAG;IAGf,MAAM,CAAC;;QAAoB,CAAC,CAAO,CAAA;AACpC,CAAC,CAAC;AAEF,QAAQ,CAAC,MAAM,CAAC,oBAAC,SAAS,OAAG,EAAE,YAAY,CAAC,CAAC\",\"sourcesContent\":[\"import * as React from \\\"react\\\";\\r\\nimport * as ReactDOM from \\\"react-dom\\\";\\r\\n// import * as DataModel from \\\"SSVTDataModel\\\"; // How to get this to give me access to both interfaces and enums \\r\\n\\r\\nlet appContainer = document.getElementById(\\\"appMain\\\");\\r\\n\\r\\nlet Component = () => {\\r\\n\\t// the need the enum below to print out its value\\r\\n\\t// return <div>Enum value is {DataModel.MatchStatus.Confirmed}</div>\\r\\n\\treturn <div>Enum value is {1}</div>\\r\\n};\\r\\n\\r\\nReactDOM.render(<Component />, appContainer);\"]}",
+headerContent: undefined,
+mtime: 1505837793897,
+devLibsRequired : undefined
+};
